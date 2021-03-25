@@ -79,6 +79,7 @@ function setup() {
 
 function draw() {
   background("grey");
+  Engine.run(engine);
   Engine.update(engine);
 
   fill(rgb(135, 205, 236));
